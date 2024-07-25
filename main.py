@@ -11,8 +11,8 @@ screen = pygame.display.set_mode(window_size)
 pygame.display.set_caption('Speedometer')
 
 # Load images with transparency support
-needle = pygame.image.load('needle_transparent.png').convert_alpha()
-circle = pygame.image.load('circle.png').convert_alpha()
+needle = pygame.image.load('assetes/needle_transparent.png').convert_alpha()
+circle = pygame.image.load('assets/circle.png').convert_alpha()
 
 # Resize the needle to be half its original size
 needle = pygame.transform.scale(needle, (needle.get_width() // 2, needle.get_height() // 2))
